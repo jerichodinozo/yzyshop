@@ -100,6 +100,15 @@ body {
     left: 20px;
 }
 
+#mobile {
+    display: none;
+    align-items: center;
+}
+
+#exit-btn {
+    display: none;
+}
+
 #main-page-focus {
     height: 90vh;
     display: flex;
@@ -261,4 +270,55 @@ footer.copyright {
 .payments i {
     font-size: 50px;
     margin-right: 10px;
+}
+
+@media (max-width:799px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #e5dab7;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.2s;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color:#635E5A;
+        font-size: 24px;
+        padding-left: 20px;
+        cursor: pointer;
+    }
+
+    #exit-btn {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #635E5A;
+        font-size: 24px;
+    }
+
+    #cart-icon {
+        display: none;
+    }
 }

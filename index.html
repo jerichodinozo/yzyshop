@@ -17,8 +17,13 @@
                     <li><a href="collection.html">Collection</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="cart.html"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 8V6a5 5 0 1 1 10 0v2h3a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h3zm0 2H5v10h14V10h-2v2h-2v-2H9v2H7v-2zm2-2h6V6a3 3 0 0 0-6 0v2z"></path></g></svg></a></li>
+                    <li id="cart-icon"><a href="cart.html"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 8V6a5 5 0 1 1 10 0v2h3a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h3zm0 2H5v10h14V10h-2v2h-2v-2H9v2H7v-2zm2-2h6V6a3 3 0 0 0-6 0v2z"></path></g></svg></a></li>
+                    <a href="#" id="exit-btn"><i class="fa-solid fa-xmark"></i></a>
                 </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <i id="bar" class="fa-solid fa-bars"></i>
             </div>
         </section>
 
@@ -34,7 +39,7 @@
 
         <section id="product1" class="section-p1">
             <h2>featured products</h2>
-            <p>currently available products</p>
+            <p id="demo">currently available products</p>
             <div class="product-container">
                 <div class="product">
                     <img src="img/350-cream.png" alt="yeezy 350 v2 cream">
@@ -97,21 +102,21 @@
                 </div>
 
                 <div class="product">
-                    <img src="img/350-lundmark.webp" alt="yeezy 350 v2 cream">
+                    <img src="img/jacket-red.webp" alt="yeezy 350 v2 cream">
                     <div class="description">
-                        <span>Yeezy 350 v2</span>
-                        <h5>lundmark</h5>
-                        <h4>$220</h4>
+                        <span>Yeezy gap jacket</span>
+                        <h5>red</h5>
+                        <h4>$300</h4>
                     </div>
                     <a href="#"><svg class="cart"stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 8V6a5 5 0 1 1 10 0v2h3a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h3zm0 2H5v10h14V10h-2v2h-2v-2H9v2H7v-2zm2-2h6V6a3 3 0 0 0-6 0v2z"></path></g></svg></a>
                 </div>
 
                 <div class="product">
-                    <img src="img/350-lundmark.webp" alt="yeezy 350 v2 cream">
+                    <img src="img/jacket-blue.webp" alt="yeezy 350 v2 cream">
                     <div class="description">
-                        <span>Yeezy 350 v2</span>
-                        <h5>lundmark</h5>
-                        <h4>$220</h4>
+                        <span>Yeezy gap jacket</span>
+                        <h5>blue</h5>
+                        <h4>$300</h4>
                     </div>
                     <a href="#"><svg class="cart"stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 8V6a5 5 0 1 1 10 0v2h3a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h3zm0 2H5v10h14V10h-2v2h-2v-2H9v2H7v-2zm2-2h6V6a3 3 0 0 0-6 0v2z"></path></g></svg></a>
                 </div>
@@ -167,6 +172,7 @@
             </div>
         </footer>
 
-        <script>src="script.js"</script>
+        <script src="script.js"></script>
+        
     </body>
 </html>
