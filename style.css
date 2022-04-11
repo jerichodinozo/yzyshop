@@ -348,6 +348,12 @@ footer.copyright {
         display: none;
     }
 
+    #main-img {
+        width: 700px;
+        height: 400px;
+        object-fit: contain;
+    }
+
     .product-container {
         display: flex;
         flex-direction: column;
@@ -357,9 +363,9 @@ footer.copyright {
     }
 
     #product1 .product img {
-        width: 350px;
-        height: 350px;
+        width: 500px;
+        height: 500px;
         object-fit: contain;
-        margin-left: -50px;
+        margin-left: -120px;
     }
 }
